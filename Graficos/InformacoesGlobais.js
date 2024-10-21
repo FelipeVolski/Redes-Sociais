@@ -14,7 +14,6 @@ async function visualizarInformacoesGlobais() {
     <br> Isso significa que aproximadamente ${porcentagemConectados}% de pesoas estão conectadas em alguma Rede Social.` 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
-    
-    
+      
 }
 visualizarInformacoesGlobais()
